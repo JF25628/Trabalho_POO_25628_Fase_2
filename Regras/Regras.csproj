@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Dados\Dados.csproj" />
+    <ProjectReference Include="..\InputOutput\InputOutput.csproj" />
+    <ProjectReference Include="..\Objetos\Objetos.csproj" />
+  </ItemGroup>
+
+</Project>
